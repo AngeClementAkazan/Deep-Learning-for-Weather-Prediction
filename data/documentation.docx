@@ -1,0 +1,24 @@
+-BEGIN HEADER-
+NASA/POWER CERES/MERRA2 Native Resolution Daily Data
+Dates (month/day/year): 01/01/2010 through 01/01/2024
+#Abidjan
+Location: Latitude  5.3572   Longitude -4.0177						
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 53.5 meters						
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999						
+# Kigali
+Location: Latitude  -1.9405   Longitude 30.0838
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 1614.43 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999
+
+Parameter(s):
+ALLSKY_SFC_SW_DWN     CERES SYN1deg All Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day)
+CLRSKY_SFC_SW_DWN     CERES SYN1deg Clear Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day)
+ALLSKY_SFC_LW_DWN     CERES SYN1deg All Sky Surface Longwave Downward Irradiance (W/m^2)
+T2M                   MERRA-2 Temperature at 2 Meters (C)
+T2MDEW                MERRA-2 Dew/Frost Point at 2 Meters (C)
+T2MWET                MERRA-2 Wet Bulb Temperature at 2 Meters (C)
+QV2M                  MERRA-2 Specific Humidity at 2 Meters (g/kg)
+RH2M                  MERRA-2 Relative Humidity at 2 Meters (%)
+PRECTOTCORR           MERRA-2 Precipitation Corrected (mm/day)
+PS                    MERRA-2 Surface Pressure (kPa)
+-END HEADER-
