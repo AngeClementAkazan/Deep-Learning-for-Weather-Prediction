@@ -1,10 +1,23 @@
+<!-- ---
+jupyter:
+  jupytext:
+    cell_metadata_filter: -all
+    custom_cell_magics: kql
+    main_language: python
+    text_representation:
+      extension: .md
+      format_name: markdown
+      format_version: '1.3'
+      jupytext_version: 1.11.2
+--- -->
+
 <!-- ## Localized Weather Prediction Using Kolmogorov-Arnold Networks and Deep RNNs -->
 
 # Localized Weather Prediction  Using Kolmogorov-Arnold Network-Based Models and Deep RNNs
 
-
 ## Description 📝 
 Our  research investigates the efficacy of novel Kolmogorov-Arnold Network (KAN) based architectures alongside traditional Deep Recurrent Neural Networks (RNNs) for weather prediction in specific geographical locations. The primary goal is to assess which model paradigm offers superior performance and interpretability for localized weather forecasting tasks. We explore various configurations, including different activation functions within Temporal KAN (TKAN) variants, and conduct a comprehensive comparative analysis.
+
 
 ## Key Features & Contributions ✨ 
 1. Comparative Analysis: A rigorous comparison of KAN, various TKAN architectures (including Simple TKAN with SiLU, Mish, and GELU activations), and traditional Deep RNNs (LSTM, BiLSTM, GRU, BiGRU, Ensemble Model) for localized temperature prediction.
@@ -14,3 +27,43 @@ Our  research investigates the efficacy of novel Kolmogorov-Arnold Network (KAN)
 
 ## Dataset📊
 The models were trained and evaluated on precipitation, 2-meter temperature data and pression from two distinct locations: Abidjan, Côte d'Ivoire and Kigali, Rwanda
+<!-- ![Abidjan Variables distribution](Abidjan_Hist.png)
+![Kigali Variables distribution](Kigali_Hist.png) -->
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">Abidjan</th>
+      <th style="text-align: center;">Kigali</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">
+        <img src="Abidjan_Hist.png" alt="Abidjan Variables distribution" style="max-width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;">
+        <em>Variables Distribution</em>
+      </td>
+      <td style="text-align: center;">
+        <img src="Kigali_Hist.png" alt="Kigali Variables distribution" style="max-width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;">
+        <em>Variables Distribution</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <img src="Abj.png" alt="Abidjan Location Map" style="max-width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;">
+        <em>Location Map</em>
+      </td>
+      <td style="text-align: center;">
+        <img src="Kgl.png" alt="Kigali Location Map" style="max-width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;">
+        <em>Location Map</em>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Cite this paper
+ <pre> 
+
+ </pre> 
+
+
+
