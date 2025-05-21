@@ -40,21 +40,21 @@ The models were trained and evaluated on precipitation, 2-meter temperature data
     <tr>
       <td style="text-align: center;">
         <img src="Abidjan_Hist.png" alt="Abidjan Variables distribution" style="max-width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;">
-        <em>Variables Distribution</em>
+        <em>Abidjan Temperature, Precipitation and  Pressure Distribution</em>
       </td>
       <td style="text-align: center;">
         <img src="Kigali_Hist.png" alt="Kigali Variables distribution" style="max-width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;">
-        <em>Variables Distribution</em>
+        <em>Kigali Temperature, Precipitation and  Pressure Distribution</em>
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
         <img src="Abj.png" alt="Abidjan Location Map" style="max-width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;">
-        <em>Location Map</em>
+        <em>Abidjan Location Map</em>
       </td>
       <td style="text-align: center;">
         <img src="Kgl.png" alt="Kigali Location Map" style="max-width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;">
-        <em>Location Map</em>
+        <em>Kigali Location Map</em>
       </td>
     </tr>
   </tbody>
