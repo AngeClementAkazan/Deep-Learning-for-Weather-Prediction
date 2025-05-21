@@ -1,4 +1,4 @@
-## Localized Weather Prediction Using Kolmogorov-Arnold Networks and Deep RNNs
+<!-- ## Localized Weather Prediction Using Kolmogorov-Arnold Networks and Deep RNNs -->
 
 # Localized Weather Prediction  Using Kolmogorov-Arnold Network-Based Models and Deep RNNs
 This repository contains the code and resources for the research project titled "Localized Weather Prediction Using Kolmogorov-Arnold Network-Based Models and Deep RNNs." The project focuses on developing and comparing advanced deep learning models for accurate weather forecasting.
