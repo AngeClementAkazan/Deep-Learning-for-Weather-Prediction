@@ -1,4 +1,4 @@
----
+<!-- ---
 jupyter:
   jupytext:
     cell_metadata_filter: -all
@@ -9,7 +9,7 @@ jupyter:
       format_name: markdown
       format_version: '1.3'
       jupytext_version: 1.11.2
----
+--- -->
 
 <!-- ## Localized Weather Prediction Using Kolmogorov-Arnold Networks and Deep RNNs -->
 
@@ -29,8 +29,7 @@ Our  research investigates the efficacy of novel Kolmogorov-Arnold Network (KAN)
 The models were trained and evaluated on precipitation, 2-meter temperature data and pression from two distinct locations: Abidjan, Côte d'Ivoire and Kigali, Rwanda
 <!-- ![Abidjan Variables distribution](Abidjan_Hist.png)
 ![Kigali Variables distribution](Kigali_Hist.png) -->
-
-<!-- <table>
+<table>
   <thead>
     <tr>
       <th style="text-align: center;">Abidjan</th>
@@ -59,37 +58,8 @@ The models were trained and evaluated on precipitation, 2-meter temperature data
       </td>
     </tr>
   </tbody>
-</table> -->
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center;">Abidjan</th>
-      <th style="text-align: center;">Kigali</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center;">
-        <img src="Abidjan_Hist.png" alt="Abidjan Variables distribution" style="width:100%; height:auto; display:block; margin:auto;">
-        <em>Abidjan Temperature, Precipitation and Pressure Distributions</em>
-      </td>
-      <td style="text-align: center;">
-        <img src="Kigali_Hist.png" alt="Kigali Variables distribution" style="width:100%; height:auto; display:block; margin:auto;">
-        <em>Kigali Temperature, Precipitation and Pressure Distributions</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">
-        <img src="Abj.png" alt="Abidjan Location Map" style="width:50%; height:auto; display:block; margin:auto;">
-        <em>Location Map</em>
-      </td>
-      <td style="text-align: center;">
-        <img src="Kgl.png" alt="Kigali Location Map" style="width:50%; height:auto; display:block; margin:auto;">
-        <em>Location Map</em>
-      </td>
-    </tr>
-  </tbody>
 </table>
+
 
 ## Cite this paper
  <pre> 
