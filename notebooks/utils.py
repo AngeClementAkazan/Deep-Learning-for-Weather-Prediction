@@ -11,7 +11,9 @@ import torch.nn.functional as F
 import math
 import seaborn as sns
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-# General Functions
+#The part has been inspired by  Efficient KAN: https://github.com/Blealtan/efficient-kan and TKAN: https://github.com/remigenet/TKAN
+
+#### General Functions
 
 
 class EarlyStopping:
@@ -102,6 +104,8 @@ class TimeSeriesDataset(Dataset):
     def __getitem__(self, idx):
         # Return the input-output pair for the given index
         return torch.tensor(self.X[idx], dtype=torch.float32), torch.tensor(self.y[idx], dtype=torch.float32)
+    
+ #KAN and TKAN
 def kan_prediction_plots(dict_m, cities, scalers,model_name="KAN",var_to_pred = None,obs_length=14):
     metrics_list = []
     for idx_d,city in enumerate(cities):
@@ -190,7 +194,7 @@ def kan_prediction_plots(dict_m, cities, scalers,model_name="KAN",var_to_pred = 
     # Convert to DataFrame
     metrics_df = pd.DataFrame(metrics_list)
     return metrics_df
-###  Deep RNNs Functions
+######   Deep RNNs Functions
 
 def Make_tidydata_deepRNN(data, scaler_other, scaler_prec):
     data = data.sort_index()
@@ -233,7 +237,8 @@ def create_data_loaders(TimeSeriesDataset,Make_tidydata,df,target_names,scaler_o
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
     return train_loader,val_loader,test_loader
 
-# KAN functions
+####### KAN functions
+
 class KANLinear(torch.nn.Module):
     def __init__(
         self,
@@ -465,7 +470,6 @@ class KANLinear(torch.nn.Module):
             + regularize_entropy * regularization_loss_entropy
         )
 
-
 class KAN(torch.nn.Module):
     def __init__(
         self,
@@ -513,7 +517,7 @@ class KAN(torch.nn.Module):
             for layer in self.layers
         )
     
-## TKAN functions
+######## TKAN functions
 
 
 class DropoutRNNCell:
