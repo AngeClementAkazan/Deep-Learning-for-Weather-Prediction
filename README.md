@@ -16,6 +16,7 @@ jupyter:
 # Localized Weather Prediction  Using Kolmogorov-Arnold Network-Based Models and Deep RNNs
 
 ## Description 📝 
+This repository contains the code for our paper [Localized Weather Prediction  Using Kolmogorov-Arnold Network-Based Models and Deep RNNs](https://arxiv.org/abs/2505.22686).
 Our  research investigates the efficacy of novel Kolmogorov-Arnold Network (KAN) based architectures alongside traditional Deep Recurrent Neural Networks (RNNs) for weather prediction in specific geographical locations. The primary goal is to assess which model paradigm offers superior performance and interpretability for localized weather forecasting tasks. We explore various configurations, including different activation functions within Temporal KAN (TKAN) variants, and conduct a comprehensive comparative analysis.
 
 
