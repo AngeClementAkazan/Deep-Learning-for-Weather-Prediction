@@ -63,7 +63,15 @@ The models were trained and evaluated on precipitation, 2-meter temperature data
 
 ## Cite this paper
  <pre> 
-
+@misc{akazan2025localizedweatherpredictionusing,
+      title={Localized Weather Prediction Using Kolmogorov-Arnold Network-Based Models and Deep RNNs}, 
+      author={Ange-Clement Akazan and Verlon Roel Mbingui and Gnankan Landry Regis N'guessan and Issa Karambal},
+      year={2025},
+      eprint={2505.22686},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.22686}, 
+}
  </pre> 
 
 
