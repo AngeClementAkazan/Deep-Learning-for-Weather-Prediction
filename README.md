@@ -27,7 +27,7 @@ Our  research investigates the efficacy of novel Kolmogorov-Arnold Network (KAN)
 4. Localized Prediction Focus: Application and evaluation of these models on real-world localized weather datasets (Abidjan and Kigali).
 
 ## Dataset📊
-The models were trained and evaluated on precipitation, 2-meter temperature data and pression from two distinct locations: Abidjan, Côte d'Ivoire and Kigali, Rwanda
+The models were trained and evaluated on precipitation, 2-meter temperature data and pression from two distinct locations: Abidjan, Côte d'Ivoire and Kigali, Rwanda. The data sets used in this study can be found in the **data** folder.
 <!-- ![Abidjan Variables distribution](Abidjan_Hist.png)
 ![Kigali Variables distribution](Kigali_Hist.png) -->
 <table>
